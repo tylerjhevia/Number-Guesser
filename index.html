@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Number Guesser</title>
+    <meta charset="utf-8"/>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="number">Number</h1><h1 class="guesser">Guesser</h1>
+    </header>
+
+    <main>
+
+      <form>
+        <input class="input-guess" type="text" name="input-guess" placeholder="Enter your guess"/>
+      </br>
+      </br>
+        <input class="guess-button" type="submit" value="Guess"/>
+        <button class="clear-button" disabled>Clear</button>
+      </form>
+
+      <form class="input-range">
+ <!-- add text that displays current range -->
+          <p class="range-display">Current Min:</p> <p class="current-min">1</p>
+          <p class="range-display">Current Max:</p><p class="current-max">100</p>
+          Min:<input class="input-min" type="text" placeholder="Enter min"/>
+          Max:<input class="input-max" type="text" placeholder="Enter max"/>
+          <button class="change-range-button">Change Range</button>
+      </form>
+
+
+
+      <section class="result">
+        <p class="your-last-guess">Your last guess was</p>
+        <p class="guess"></p>
+        <p class="feedback"></p>
+      <section>               <!-- why is this working -->
+      </br>
+      <button class="reset">Reset</button>
+
+    </main>
+
+    <script src="guesser.js"></script>
+
+
+  </body>
+
+</html>

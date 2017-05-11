@@ -1,0 +1,141 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 300%;
+  margin: 10px auto;
+  width: 220px;
+
+}
+
+.number {
+  color: #ED458B;
+  font-weight: bold;
+}
+
+.guesser {
+  color: #E6E7E8;
+  font-weight: lighter;
+}
+
+header {
+  background: #404041;
+  font-size: large;
+  height: 100px;
+  text-align: center;
+}
+
+main {
+  background: #F5F3F2;
+  height: 800px;
+  border: 1px solid black;
+}
+
+form {
+  margin: 40px auto;
+  width: 100%;
+  text-align: center;
+}
+
+input,
+button {
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+  margin: auto;
+}
+
+.input-guess {
+  border: 1px solid lightgray;
+}
+
+.guess-button,
+.clear-button {
+  background: #929497;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 150px;
+  height:35px;
+  border: 2px solid #F5F3F2;
+  border-radius: 25px;
+  line-height: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.guess-button:hover,
+.clear-button:hover,
+.reset:hover {
+  color: red;
+}
+
+.result {
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  color: #404041;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.guess {
+  color: #EB008B;
+  font-size: 150px;
+  margin: auto;
+}
+
+.feedback,
+.your-last-guess {
+  margin: 0 auto;
+}
+
+.reset {
+  background: #929497;
+  color: #FFFFFF;
+  width: 350px;
+  height:35px;
+  border: 2px solid #F5F3F2;
+  border-radius: 25px;
+  line-height: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:hover:disabled {
+  color: black;
+}
+
+.change-range-button {
+  width: 75px;
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.input-min,
+.input-max {
+  width: 100px;
+  font-size: 20px;
+}
+
+.min-range,
+.max-range {
+  display: inline-block;
+}
+
+.current-min,
+.current-max {
+  font-size: 20px;
+}
+
+.range-display {
+  background: #E6E7E8;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 15px;
+}
