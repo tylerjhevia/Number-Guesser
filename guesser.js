@@ -41,7 +41,7 @@ function compareValues(lastGuess, currentAnswer) {    // checks user input again
     minRange -= 10;
     maxRange += 10;
     updateCurrentRange();
-    return feedback.innerHTML = 'Boom!';
+    return feedback.innerHTML = 'Sweet Action!';
 }
   if (lastGuess > currentAnswer) { return feedback.innerHTML = 'That is too high!' }
   if (lastGuess < currentAnswer) { return feedback.innerHTML = 'That is too low!' }
